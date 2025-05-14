@@ -1,10 +1,11 @@
 name: Run name
 run-name: Run by @{{ github.actor }}
+
 on: push
-  jobs:
-    print:
-      name: sample job
-      runs-on: ubuntu-latest
-      steps:
-        - name: Print hello
-        - run: echo "hello"
+jobs:
+  print:
+    name: sample job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+      - run: echo "hello"
