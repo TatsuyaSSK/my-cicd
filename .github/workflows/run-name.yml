@@ -9,3 +9,4 @@ jobs:
     steps:
       - name: Print hello
       - run: echo "hello"
+      - uses: actions/checkout@v4
