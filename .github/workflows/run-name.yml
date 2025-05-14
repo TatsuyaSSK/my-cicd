@@ -7,5 +7,6 @@ jobs:
     name: sample job
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello"
+      - name: sample step
+        run: echo "hello world"
       - uses: actions/checkout@v4
